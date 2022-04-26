@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h3 {
+    text-align: center;
+    padding: 20px 0;
+    color: silver;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: silver;
+}
+
+#imgPortada,
+#logo{
+    display: block;
+    margin: 0 auto;
+    padding:5px 0;
+}
+
+#imgPortada {
+    border-radius: 50%;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    background: rgb(39, 37, 37);
+}
+
+.bandejaPaisa,
+.vanillaIceCream {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 20px 0;
+}
+
+.bandejaPaisa img,
+.vanillaIceCream img {
+    border-radius: 50%;
+}
+
+footer {
+    text-align: center;
+    padding-top: 250px;
+    color: silver;
+}
